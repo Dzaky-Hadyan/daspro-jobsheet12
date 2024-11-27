@@ -9,7 +9,6 @@ public class Percobaan2 {
         }
     }
     public static void printDeret(int x, int y) {
-        String j;
         for (; y >= 0; y--) {
             if (y == 0) {
                 System.out.print("1");
