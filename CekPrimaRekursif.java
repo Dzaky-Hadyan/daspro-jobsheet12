@@ -29,11 +29,3 @@ public class CekPrimaRekursif {
         sc.close();
     }
 }
-// cekPrima(5) = 5 % 4 != 0
-//               5 % 3 != 0
-//               5 % 2 != 0
-// cekPrima(6) = 6 % 5 != 0
-//               6 % 4 != 0
-//               6 % 3 = 0
-// base case = n = 2
-// recursion call = f(n) = n % n-1 != 0
